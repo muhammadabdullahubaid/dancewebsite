@@ -1,0 +1,7 @@
+let nambtn = document.querySelector('button');
+nambtn.addEventListener('click', showmsg);
+
+function showmsg(){
+    let name= prompt('Enter the name:');
+    nambtn.textContent= name;
+}
